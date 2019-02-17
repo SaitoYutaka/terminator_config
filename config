@@ -1,0 +1,85 @@
+[global_config]
+  window_state = maximise
+[keybindings]
+[layouts]
+  # [[default]]
+  #   [[[child0]]]
+  #     fullscreen = False
+  #     last_active_term = 9fb064b5-0bc4-4d6c-b300-d8af7261064d
+  #     last_active_window = True
+  #     maximised = False
+  #     order = 0
+  #     parent = ""
+  #     position = 86:63
+  #     size = 968, 590
+  #     title = saitoyutaka@saitoyutaka-VirtualBox: ~
+  #     type = Window
+  #   [[[terminal1]]]
+  #     order = 0
+  #     parent = child0
+  #     profile = default
+  #     type = Terminal
+  #     uuid = 9fb064b5-0bc4-4d6c-b300-d8af7261064d
+  [[default]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 1f69ecd5-9f15-4754-8b43-ed81222f5094
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 65:24
+      size = 1223, 762
+      title = saitoyutaka@saitoyutaka-VirtualBox: ~
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 608
+      ratio = 0.499591169256
+      type = HPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 377
+      ratio = 0.498687664042
+      type = VPaned
+    [[[child5]]]
+      order = 1
+      parent = child1
+      position = 377
+      ratio = 0.498687664042
+      type = VPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = MyProfile
+      type = Terminal
+      uuid = 2617411b-0891-4638-b291-98c0a8d35d1c
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = MyProfile
+      type = Terminal
+      uuid = 6c02e4de-cda7-425a-9bcf-f5a62d305f4c
+    [[[terminal6]]]
+      order = 0
+      parent = child5
+      profile = MyProfile
+      type = Terminal
+      uuid = a1a9ae59-e823-4dd6-a5a9-e1ad61d33601
+    [[[terminal7]]]
+      order = 1
+      parent = child5
+      profile = MyProfile
+      type = Terminal
+      uuid = 1f69ecd5-9f15-4754-8b43-ed81222f5094
+[plugins]
+[profiles]
+  [[default]]
+    background_image = None
+  [[MyProfile]]
+    background_image = None
+    font = Sans 14
+    login_shell = True
+    use_system_font = False
